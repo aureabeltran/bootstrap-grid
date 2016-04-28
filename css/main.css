@@ -7,6 +7,34 @@ header h1{
 	font-family: Passion One;
 	font-size: 40px;
 }
+.barra{
+	background-image: url(../images.jpg);
+	background-size: cover;
+	padding-top: 5%;
+}
+.menu{
+	background-color: #000000;
+	padding: 5% 10% 5% 10%;
+}
+.menu li{
+	display: inline-block;
+	margin: 2%;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	font-size: 20px;
+	font-family: Roboto Condensed;
+}
+.menu a:hover{
+	text-decoration: none;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	color: #781B1B;
+	font-size: 25px;
+	font-family: Passion One;
+}
 span:after{
 	content: "|";
 }
