@@ -1,11 +1,50 @@
 /* Inserta tu código aqui */
+header h1{
+	font-family: Passion One;
+	font-size: 40px;
+}
+header ul{
+	text-align: right;
+}
+header a{
+	text-decoration: none;
+}
+header li{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Roboto Condensed;
+	margin: 4% 2% 0% 2%;
+}
+header input{
+	margin-top: 5%;
+}
+.busqueda{
+	font-size: 15px;
+	color: #BCBCBC;
+}
+.button{
+	background-color: #781B1B;
+	border: 1px solid black;
+	padding: 1%;
+	border-radius: 10%;
+	color: white;
+	font-weight: bold;
+}
+p{
+	font-family:Roboto Condensed;
+}
+.indie{
+	font-family: Indie Flower;
+	font-size: 30px;
+}
 img{
 	width: 100%;
 	max-width: 100%;
 }
-header h1{
+section h2{
 	font-family: Passion One;
-	font-size: 40px;
 }
 .barra{
 	background-image: url(../images.jpg);
@@ -38,9 +77,36 @@ header h1{
 span:after{
 	content: "|";
 }
-frame{
-	width: 100%;
+.embed-responsive frame{
+
 }
 p{
 	font-family: Roboto Condensed;
+}
+.video{
+	background-color: #8D0404;
+	color: white;
+	padding: 5%;
+	margin-top: 5%;
+}
+footer{
+background-image: url(../images.jpg);
+background-size: cover;
+width: 100%;
+padding: 5%; 
+}
+@media (min-width: 768px) and (max-width: 992px){
+	.menu{
+		padding: 0%;
+	}
+	header{
+		padding: 0%;
+		margin: 0%;
+	}
+	header h1{
+		font-size: 30px;
+	}
+	header input{
+		display: none;
+	}
 }
